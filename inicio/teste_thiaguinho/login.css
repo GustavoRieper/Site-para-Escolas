@@ -1,0 +1,59 @@
+/*---------------Sistema de login------------------------------------*/
+#sis_login{
+       font-family:Nova Slim, Verdana, Geneva, sans-serif;
+       width:300px;
+       position: relative;
+       color:#FFF;
+   top: 32px;
+       font-size:18px;
+
+}
+#login label{
+       display:block;
+}
+.registro{
+       margin:0 auto;
+       width:250px;
+}
+.txt{
+       border:none;
+       height: 40px; /* Altura do Botão */
+       width: 250px; /* Largura do Botão */
+       border:thin solid #f3f3f3;
+}
+/*.txt:focus{
+       border: thin solid #09f;
+       box-shadow:0 5px 10px #09f;
+       -webkit-box-shadow:0 2px 10px #09f;
+       -moz-box-shadow:0 2px 10px #09f;
+       
+}*/
+.sb{
+       display:block;
+       border:none;
+       width:250px;
+       height:40px;
+       margin-top: 10px;
+       cursor:pointer;
+       font-family:Nova Slim, Verdana, Geneva, sans-serif;
+       margin-top: 30px;
+
+}
+.sb:hover{ 
+       background:#09f;
+       color:#fff;
+}
+
+/* CLASSES DE HERANÇA */
+.bradius{
+       border-radius: 6px;
+       -webkit-border-radius: 20px;
+       -moz-border-radius: 6px;
+}
+
+.fleft{
+       float:left;
+}
+.frighit{
+       float:right
+}

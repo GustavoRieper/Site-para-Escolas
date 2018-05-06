@@ -1,0 +1,45 @@
+body {
+	width: 100%;
+	height: 1760px;
+	margin-left: 0px;
+	margin-top:0px;
+	margin-right: 0px;
+	background-color:#ccc;
+}
+.tela1 {
+	background-image: url(imagens/fundo.png) ; 
+	color:#fff;
+	background-repeat: no-repeat;
+	width: 100%;
+	height:38%;
+	background-size: 100% 100%;
+
+
+}
+.logo_tela1 {
+	 padding-top: 157px;
+
+}
+
+.texto_tela1 {
+	font-family: Calibrie, Verdana, Geneva, Sans-serif; 
+	font-size: 20px;
+	font-color: #fff;
+	margin-top: 55px;
+}
+
+.tela2 {
+	background-image: url(imagens/fundo2.png);
+	color:#fff;
+	background-repeat: no-repeat;
+	width: 100%;
+	height:40%;
+	background-size: 100% 100%;
+	padding-top: 150px
+
+}
+#logo_tela2 {
+width: auto;
+height: auto;
+
+}

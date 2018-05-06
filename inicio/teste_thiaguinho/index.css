@@ -1,0 +1,86 @@
+body{
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+	
+}
+
+.menu {
+	text-align: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri Regular, 'Trebuchet MS', sans-serif;
+	background: ;
+	left:0px;
+	right:0px;
+	padding: 20px;
+	background:#000;
+	top:0;	
+	z-index:99;
+	position:fixed;
+
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    margin-right:2%;
+    
+  }
+
+  #imagem_tela1 {
+      width: 100%;
+      height: auto;
+      margin-bottom: 0;
+      position:relative;
+      float:left;
+      z-index:-1;
+      transition: all 1s ease;
+      
+  }
+  #imagem_tela1:hover {
+      filter: brightness(55%);
+  }
+
+  #imagem_tela2 {
+        width: 100%;
+        height: auto;
+        margin-bottom: 0;
+        position:relative;
+        float:left;
+        z-index:-1;
+        transition: all 1s ease;
+        
+  }
+  #imagem_tela2:hover{
+      filter: brightness(50%);
+  }  
+
+  #botao_tela2{
+      position: absolute;
+      float: left;
+      z-index: 3;
+      margin-top: 92%;
+      margin-left: -60%;
+      width: 20%;
+      height: auto;
+  }
+ 
+
+  #texto_tela1 {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri Regular, 'Trebuchet MS', sans-serif;      
+      font-size: 250%;  
+      position: absolute;
+      margin-top: 20%;
+      margin-left: 40%;
+      color: white;
+  }
+  #texto_tela2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri Regular, 'Trebuchet MS', sans-serif;      
+    font-size: 250%;
+    float: left;
+    position: absolute;
+    margin-top: 80%;
+    margin-left: 30%;
+    color: white;
+  }

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <meta content="text/html; charset=UTF-8">
+    <title>Thiago Avila</title>
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+        <script>
+        jQuery(document).ready(function($) { 
+            $(".scroll").click(function(event){        
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top}, 900);
+        });
+        });
+    </script>
+</head>
+
+<body>
+
+   <!-- <div class="menu">
+        <a href="index.html">INICIO</a>
+        <a href="galeria.html">GALERIA</a>
+        <a href="#portifolio">PORTIFÓLIO</a>
+        <a href="#contato">CONTATO</a>
+    </div> -->
+
+    <div class="tela1">
+        <a class="scroll" href="#imagem_tela2"><img src="botao_baixo.png"  id="botao_baixo"></a>
+        <img id="imagem_tela1" src="balao_001.jpg">
+        <div class="conteudo_tela1">
+            <p id="texto_tela1"> Olá, seja bem vindo ao meu portifólio,<br> espero que goste dos trabalhos.</p>
+        </div>
+
+    <div class="tela2">
+        <a class="scroll" href="#imagem_tela1"><img src="botao_cima.png"  id="botao_cima"></a>
+        <a href="galeria.html"><img src="button_gallery.png" id="botao_tela2"></a>
+        <img id="imagem_tela2" src="balao_03.jpg">
+        <div class="conteudo_tela2">
+            <p id="texto_tela2"> Clique no botão abaixo para acessar<br> todas as fotos da galeria de imagens.</p>
+        </div>
+    </div>
+
+    
+
+    
+</body>
+</html>

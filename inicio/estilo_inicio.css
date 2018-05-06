@@ -1,0 +1,261 @@
+/* Importações de Fontes */
+@import url('https://fonts.googleapis.com/css?family=Nova+Slim');
+/* Efeito Fade In - Entrada de tela */
+@-webkit-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; } 
+}
+@-moz-keyframes fadeIn {
+0% { opacity: 0;}
+100% { opacity: 1; }
+}
+@-o-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+/*Fade Aplicada ao Body */
+.fadeIn { 
+	-webkit-animation: fadeIn 0.5s ease-in-out;
+	-moz-animation: fadeIn 0.5s ease-in-out;
+	-o-animation: fadeIn 0.5s ease-in-out;
+	animation: fadeIn 0.5s ease-in-out;
+}
+/* ------------------------------------------------- Inicio Edição Body -------------------------------*/
+body{
+	width:100%;
+	margin-left:0px;
+	margin-top:0px;
+	margin-right:0px;
+}
+/* ------------------------------------------------- Inicio Edição Parte 1 -------------------------------*/
+#anco_1{
+	float:left;
+	width:5px;
+	opacity:0.0;
+}
+#imagem_tela1 {
+      width: 100%;
+	  max-width:100%;
+      height: auto;
+      margin-bottom: 0;
+      position:fixed;
+      z-index:-1;
+      transition: all 1s ease;
+	  filter: brightness(40%);
+	  top:0;
+      
+}
+#imagem_tela1:hover {
+      filter: brightness(20%);
+}
+#logo_parte1{
+	width:20%;	
+	margin-left:38%;
+	margin-right:38%;
+	margin-top:3%;
+	margin-bottom:7%;
+}
+.conteudo_pt1{
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color:#FFF;
+	font-size:180%;
+	width:40%;
+	text-align:center;
+	margin-left:30%;
+	margin-right:30%;
+	margin-top:-1%;
+	margin-bottom:17%;
+
+}
+
+
+#botao_baixo {
+	position: absolute;
+	float: left;
+	z-index: 55;
+	margin-top: -15%;
+	margin-left: 48%;
+	width: 3%;
+	height: auto;
+	padding-bottom: 100px;
+	opacity:0.5;
+}
+#botao_baixo:hover{
+	opacity:1.0;
+}
+#img_ancora{
+	width:1%;
+	opacity:0.5;
+	right:1%;
+	position:fixed;
+	top:40%;
+}
+#img_ancora:hover{
+	opacity:1.0;
+}
+
+
+#login{
+	width:55%;
+	height:60px;
+	margin-top:-2%;
+	text-align:center;
+	border-radius:40px;
+	border:#CCC;
+	font-size:70%;
+	outline:none; /* Retira a borda azul do quadro */
+	
+}
+
+#login_entrar{
+	background-color:#42e072;
+	width:55%;
+	height:60px;
+	margin-top:-1%;
+	margin-bottom:2%;
+	text-align:center;
+	border-radius:40px;
+	border:#CCC;
+	font-size:70%;
+	outline:none;
+	cursor:pointer;
+	
+}
+#login_entrar:hover{
+	color:#FFF;
+}
+.conteudo_pt1 a{
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size:65%;
+	opacity:0.8;
+	text-decoration:none;
+	color:#FFF;
+}
+.conteudo_pt1 a:hover{
+	opacity:1.0;
+}
+
+/* ------------------------------------------------- Inicio Edição Parte 2 -------------------------------*/
+#imagem_tela2 {
+      width: 100%;
+      height: auto;
+      position:absolute;
+      z-index:-1;
+      transition: all 1s ease;
+	  filter: brightness(40%);
+	  box-shadow:0px -5px 20px #000;
+	  opacity:0.0;
+      
+}
+#imagem_tela2:hover {
+      filter: brightness(20%);
+}
+#logo_parte2{
+	width:30%;	
+	margin-left:33%;
+	margin-right:33%;
+	margin-top:11%;
+}
+.conteudo_pt2{
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color:#FFF;
+	font-size:180%;
+	width:50%;
+	text-align:center;
+	margin-left:25%;
+	margin-right:25%;
+	margin-top:-1%;
+	margin-bottom:20%;	
+
+}
+
+/* ------------------------------------------------- Inicio Edição Parte 3 -------------------------------*/
+
+#imagem_tela3 {
+      width: 100%;
+      height: auto;
+      position:absolute;
+      z-index:-1;
+      transition: all 1s ease;
+	  filter: brightness(40%);
+	  opacity:0.0;
+      
+}
+#imagem_tela3:hover {
+      filter: brightness(20%);
+}
+#logo_parte3{
+	width:30%;	
+	margin-left:33%;
+	margin-right:33%;
+	margin-top:10%;
+}
+.conteudo_pt3{
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color:#FFF;
+	font-size:180%;
+	width:50%;
+	text-align:center;
+	margin-left:25%;
+	margin-right:25%;
+	margin-top:-1%;
+	margin-bottom:17%;
+}
+
+/* ------------------------------------------------- Inicio Edição Parte 4 -------------------------------*/
+
+#imagem_tela4 {
+      width: 100%;
+      height: auto;
+      position:absolute;
+      z-index:-1;
+      transition: all 1s ease;
+	  filter: brightness(40%);
+	  opacity:0.0;
+      
+}
+#imagem_tela4:hover {
+      filter: brightness(20%);
+}
+#logo_parte4{
+	width:10%;	
+	margin-left:44%;
+	margin-right:44%;
+	margin-top:20%;
+}
+.conteudo_pt4 p{
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color:#FFF;
+	font-size:210%;
+	width:40%;
+	text-align:center;
+	margin-left:30%;
+	margin-right:30%;
+	padding-top:25%;
+	margin-bottom:0%;
+}
+#botao_contato a{
+	color:#000;
+	text-decoration:none;
+}
+#botao_contato a:hover{
+	color:#FFF;
+}
+#botao_contato p{
+	background-color:#42e072;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color:#000;
+	padding-top:1%;
+	font-size:160%;
+	width:18%;
+	height:45px;
+	margin-left:41%;
+	margin-right:41%;
+	margin-top:2%;
+	text-align:center;
+	border-radius:40px;
+}

@@ -1,0 +1,196 @@
+body{
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+    margin-bottom:0px;	
+    background-color: rgb(245, 245, 245);
+}
+
+.menu {
+	text-align: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	left:0px;
+	right:0px;
+	padding: 20px;
+	background: #FFFFFF;
+	top:0;	
+	z-index:99999999;
+	position:fixed;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgba(7, 7, 7, 0.47);
+    margin-right:2%;
+    transition: all 0.4s ease;
+    
+  }
+.menu a:hover {
+   color: #FFFFFF;
+   border-radius: 20px;
+   padding: 10px;
+   background: #2ABB49;
+  
+}
+
+/*--------------------------GALERIA DE IMAGENS ABAIXO---------------------------------*/
+
+/*--------------------------FOTO FLORESTA---------------------------------------------*/
+#floresta{
+    margin-top: 6%;
+    margin-left: 2%;
+    width: 30%;
+    height: auto;
+    position: absolute;
+    filter: brightness(60%);
+    transition: all 1s ease;
+    z-index: 8;
+}
+#floresta:hover{
+    width: 30%;
+    filter: brightness(100%);
+}
+#floresta:target{
+    width: 100%;
+    filter: brightness(100%);
+    margin-left: 0%;
+    z-index: 99;
+}
+
+/*-------------------------------------------FOTO FLORESTA 2----------------------------------*/
+#floresta2{
+    margin-top: 6%;
+    margin-left: 33%;
+    width: 30%;
+    height: auto;
+    position: absolute;
+    filter: brightness(60%);
+    transition: all 1s ease;
+}
+#floresta2:hover{
+    width: 30%;
+    filter: brightness(100%);
+    z-index: 8;
+}
+#floresta2:target{
+    width: 100%;
+    filter: brightness(100%);
+    margin-left: 0%;
+    z-index: 99;
+    filter: brightness(60%);
+}
+/*----------------------------------------FOTO BARCO--------------------------------------------*/
+#barco{
+    margin-top: 6%;
+    margin-left: 64%;
+    width: 30%;
+    height: auto;
+    position: absolute;
+    filter: brightness(60%);
+    transition: all 1s ease;
+}
+#barco:hover{
+    width: 30%;
+    filter: brightness(100%);
+    z-index: 4;
+}
+#barco:target{
+    width: 100%;
+    filter: brightness(100%);
+    margin-left: 0%;
+    z-index: 99;
+}
+
+/*-----------------------------------------FOTO FAROL----------------------------------------------*/
+#farol{
+    margin-top: 24%;
+    margin-left: 2%;
+    width: 30%;
+    height: auto;
+    position: absolute;
+    filter: brightness(60%);
+    transition: all 1s ease;
+}
+#farol:hover{
+    width: 30%;
+    filter: brightness(100%);
+    z-index: 9;
+}
+#farol:target{
+    width: 100%;
+    filter: brightness(100%);
+    margin-left: 0%;
+    z-index: 99;
+}
+
+/*------------------------------------------FOTO MAR----------------------------------------------*/
+#mar{
+    margin-top: 27%;
+    margin-left: 33%;
+    width: 30%;
+    height: auto;
+    position: absolute;
+    filter: brightness(60%);
+    transition: all 1s ease;
+}
+#mar:hover{
+    width: 30%;
+    filter: brightness(100%);
+    z-index: 9;
+}
+#mar:target{
+    width: 100%;
+    filter: brightness(100%);
+    margin-left: 0%;
+    z-index: 99;
+}
+/*----------------------------------------FOTO BALAO---------------------------------------------*/
+#balao{
+    margin-top: 27%;
+    margin-left: 64%;
+    width: 30%;
+    height: auto;
+    position: absolute;
+    filter: brightness(60%);
+    transition: all 1s ease;
+}
+#balao:hover{
+    width: 30%;
+    filter: brightness(100%);
+    z-index: 9;
+}
+#balao:target{
+    width: 100%;
+    filter: brightness(100%);
+    margin-left: 0%;
+    z-index: 99;
+}
+
+/*.clip {
+    -webkit-clip-path: polygon(1% 1%, 99% 1%, 99% 99%, 1% 99%);
+    clip-path: polygon(1% 1%, 99% 1%, 99% 99%, 1% 99%);
+    transition: all 1s ease;
+  }
+*/
+/*------------------------------------------FOTO PES-----------------------------------------------*/
+#pes{
+    margin-top: 47%;
+    margin-left: 33%;
+    width: 30%;
+    height: auto;
+    position: absolute;
+    filter: brightness(60%);
+    transition: all 1s ease;
+}
+#pes:hover{
+    width: 30%;
+    filter: brightness(100%) ;
+    z-index: 9;
+}
+#pes:target{
+    width: 100%;
+    filter: brightness(100%);
+    margin-left: 0%;
+    z-index: 99;
+}
